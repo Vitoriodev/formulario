@@ -11,6 +11,7 @@ public class Main {
         byte idade = input.nextByte();
 
         while (true){
+            // vai fazer a verificação da pessoa pra saber ser ela é maior de idade.
             if (idade >= 18){
 
                 System.out.print("qual o seu nome? ");
@@ -48,11 +49,12 @@ public class Main {
                 System.out.println("olhar "+nome+" o seu imc é "+imc);
 
             }else {
+                // ser ela não for maior de idade vai aparecer essa mensagem
                 System.out.println("você precisa de uma autorização de um reponsavel");
 
             }
-            break;
 
+            break; // vai finalizar o while.
 
         }
     }
